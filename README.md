@@ -32,10 +32,11 @@ Access to the clusters is done as follows (example for module 0). First obtain t
 for (Int_t i=0; i<clfMod0.getNumberOfClusters(); i++) {
   cout << "cluster in mod 0, tot = " << clfMod0.getClusterTot(i) << ", time = " << clfMod0.getClusterTime(i) << " and clustersize = " << clfMod0.getClusterSize(i) << endl;
 }
+```
 
 And thats it!
 
-##
+## To do
 
 What is missing (features that would be nice to add):
  - differentiate by module in the cluster finding algorithm - then you would only need one cluster finder per event
