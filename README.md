@@ -40,4 +40,4 @@ And thats it!
 
 What is missing (features that would be nice to add):
  - differentiate by module in the cluster finding algorithm - then you would only need one cluster finder per event
- - optimize the algorithm
+ - optimize the algorithm (for now it might be a little time consuming)
